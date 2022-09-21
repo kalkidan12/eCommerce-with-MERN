@@ -100,8 +100,8 @@ a {
 		margin-bottom: 20px;
 	}
 	.logo {
-		position: sticky;
-
+		width: 200px;
+		position: fixed;
 		margin: 10px;
 	}
 	header .nav {
@@ -132,6 +132,7 @@ a {
 		margin-top: -50px;
 		float: right;
 		font-size: 30px;
+		z-index: 99999;
 	}
 	.close-btn {
 		cursor: pointer;
