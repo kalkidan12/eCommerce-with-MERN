@@ -549,7 +549,7 @@
 		font-size: 25px;
 		font-weight: bold;
 		position: absolute;
-		top: 25%;
+		top: 26%;
 		left: 25%;
 		transform: translate(-50%, -50%);
 	}
@@ -622,7 +622,7 @@
 	}
 	.trending-product-list {
 		width: 94%;
-		margin-left: 3.2%;
+		margin-left: 3.4%;
 		display: grid;
 		grid-template-columns: auto auto;
 		gap: 20px;
