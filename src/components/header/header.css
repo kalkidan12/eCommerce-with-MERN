@@ -101,6 +101,8 @@ a {
 	}
 	.logo {
 		position: fixed;
+		top: 10px;
+		left: 10px;
 	}
 	header .nav {
 		position: absolute;
