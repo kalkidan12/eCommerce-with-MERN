@@ -21,7 +21,13 @@ function Header() {
 		<header>
 			<div className="logo">
 				<Link to="/">
-					<h1> Logo</h1>
+					<img
+						src={logo}
+						alt="logo"
+						width={"150px"}
+						height="45px"
+						style={{ marginTop: "6px" }}
+					/>
 				</Link>
 			</div>
 			<nav className="nav" ref={navRef}>
