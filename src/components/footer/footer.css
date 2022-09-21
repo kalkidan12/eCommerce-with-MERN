@@ -1,0 +1,23 @@
+footer {
+	width: 100%;
+	position: static;
+	bottom: 0;
+	left: 0;
+	padding: 10px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background: rgba(255, 255, 255, 0.5);
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+	box-shadow: 0 4px 30px rgb(0, 0, 0, 0.1);
+	border: 1px solid rgba(253, 253, 253, 253);
+	margin-top: 50px;
+}
+footer ul {
+	display: flex;
+}
+footer ul li {
+	font-size: 18px;
+	margin-left: 15px;
+}
