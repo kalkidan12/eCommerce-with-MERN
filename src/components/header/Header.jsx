@@ -5,6 +5,8 @@ import { FaShoppingCart } from "react-icons/fa";
 import { BiMenuAltRight } from "react-icons/bi";
 import { GrClose } from "react-icons/gr";
 import { useSelector } from "react-redux";
+import logo from "../../images/logo.png";
+
 import "./header.css";
 
 function Header() {
