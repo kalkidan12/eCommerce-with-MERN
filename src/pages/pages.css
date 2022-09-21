@@ -622,7 +622,7 @@
 	}
 	.trending-product-list {
 		width: 94%;
-		margin-left: 3%;
+		margin-left: 3.2%;
 		display: grid;
 		grid-template-columns: auto auto;
 		gap: 20px;
