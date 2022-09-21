@@ -26,7 +26,7 @@ function CartPage() {
 				<h2>Your Cart</h2>
 			</div>
 			<div className="container">
-				{cartItem.length > 0 ? (
+				{cartItem ? (
 					<div>
 						<div className="check-out">
 							<div className="title">Your Bill</div>
