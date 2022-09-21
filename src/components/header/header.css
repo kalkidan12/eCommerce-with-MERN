@@ -23,6 +23,7 @@ a {
 		-webkit-backdrop-filter: blur(5px);
 		box-shadow: 0 4px 30px rgb(0, 0, 0, 0.1);
 		border: 1px solid rgba(253, 253, 253, 253);
+		z-index: 999999;
 	}
 	.logo {
 		margin-left: 10px;
