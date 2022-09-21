@@ -140,12 +140,7 @@ a {
 		margin-right: 15px;
 		font-size: 25px;
 	}
-	.logo {
-		margin-left: 10px;
-	}
-	.logo a {
-		color: black;
-	}
+
 	.nav-content {
 		width: 100%;
 		display: flex;
