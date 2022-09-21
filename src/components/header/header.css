@@ -129,14 +129,14 @@ a {
 	.open-btn {
 		cursor: pointer;
 		margin-right: 15px;
-		margin-top: -40px;
+		margin-top: -400px;
 		float: right;
 		font-size: 30px;
 		z-index: 99999;
 	}
 	.close-btn {
 		cursor: pointer;
-		margin-top: -250px;
+		margin-top: -50px;
 		margin-right: 15px;
 		font-size: 25px;
 	}
