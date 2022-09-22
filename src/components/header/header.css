@@ -97,12 +97,18 @@ a {
 
 @media only screen and (max-width: 900px) {
 	header {
+		position: sticky;
+		top: 0;
+		background: rgba(255, 255, 255, 0.5);
+		top: 0px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
 		margin-bottom: 20px;
+		z-index: 99999;
 	}
 	.logo {
-		position: fixed;
-		top: 3px;
-		left: 10px;
+		margin-left: 10px;
 	}
 	header .nav {
 		position: absolute;
@@ -118,7 +124,7 @@ a {
 		box-shadow: 0 4px 30px rgb(0, 0, 0, 0.1);
 		transition: 1s;
 		transform: translateY(-400px);
-		z-index: 999999;
+		z-index: 9999;
 	}
 	header .show-hide-nav {
 		transform: none;
@@ -130,14 +136,13 @@ a {
 	.open-btn {
 		cursor: pointer;
 		margin-right: 15px;
-		margin-top: -65px;
+		margin-top: 15px;
 		float: right;
 		font-size: 30px;
-		z-index: 99999;
 	}
 	.close-btn {
 		cursor: pointer;
-		margin-top: -230px;
+		margin-top: -250px;
 		margin-right: 15px;
 		font-size: 25px;
 	}

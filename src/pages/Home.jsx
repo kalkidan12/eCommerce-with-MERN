@@ -31,6 +31,7 @@ function Home() {
 						height={"100%"}
 						width="100%"
 						className="img"
+						style={{ borderRadius: "10px" }}
 					/>
 					<div className="home-left-title">20% off</div>
 					<div className="home-left-title-ordernow">Order Now</div>

@@ -521,7 +521,7 @@
 	.home-flex {
 		width: 96%;
 		margin-left: 2%;
-		margin-top: 80px;
+		margin-top: 50px;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -536,21 +536,21 @@
 		border-radius: 10px;
 	}
 	.home-left-title {
-		font-size: 35px;
+		font-size: 30px;
 		font-weight: bold;
 		color: rgb(206, 58, 58);
 		position: absolute;
-		top: 17%;
-		left: 25%;
+		top: 20%;
+		left: 20%;
 		transform: translate(-50%, -50%);
 	}
 	.home-left-title-ordernow {
 		color: black;
-		font-size: 25px;
+		font-size: 20px;
 		font-weight: bold;
 		position: absolute;
-		top: 21%;
-		left: 25%;
+		top: 24%;
+		left: 20%;
 		transform: translate(-50%, -50%);
 	}
 	.home-right {
@@ -622,7 +622,7 @@
 	}
 	.trending-product-list {
 		width: 94%;
-		margin-left: 3.4%;
+		margin-left: 3.3%;
 		display: grid;
 		grid-template-columns: auto auto;
 		gap: 20px;
