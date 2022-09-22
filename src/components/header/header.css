@@ -118,6 +118,7 @@ a {
 		box-shadow: 0 4px 30px rgb(0, 0, 0, 0.1);
 		transition: 1s;
 		transform: translateY(-400px);
+		z-index: 999999;
 	}
 	header .show-hide-nav {
 		transform: none;
@@ -129,7 +130,7 @@ a {
 	.open-btn {
 		cursor: pointer;
 		margin-right: 15px;
-		margin-top: -400px;
+		margin-top: -40px;
 		float: right;
 		font-size: 30px;
 		z-index: 99999;
