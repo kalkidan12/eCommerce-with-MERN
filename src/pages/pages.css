@@ -540,7 +540,7 @@
 		font-weight: bold;
 		color: rgb(206, 58, 58);
 		position: absolute;
-		top: 22%;
+		top: 17%;
 		left: 25%;
 		transform: translate(-50%, -50%);
 	}
@@ -549,7 +549,7 @@
 		font-size: 25px;
 		font-weight: bold;
 		position: absolute;
-		top: 26%;
+		top: 21%;
 		left: 25%;
 		transform: translate(-50%, -50%);
 	}
